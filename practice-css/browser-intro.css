@@ -1,4 +1,4 @@
-p {
+p{
 	color: navy;
 }
 
@@ -7,16 +7,23 @@ p.info {
 }
 
 h1 {
-	background-color: #7f7fcf;
+	text-shadow: 1px 0px 10px navy;
+	color: white;
 }
 
 h2 {
 	border: solid 1px black;
-	margin: 5px;
+	padding: 5px;
+	font-family: cursive;
+	color: #3f3faf;
+	background: linear-gradient(.25turn,white, #ffefaf);
 }
 
 div#zentai {
-	display: flex;
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	grid-auto-rows: 200px 200px;
+	grid-gap: 10px;
 	flex-direction: row;
 	width: 1024px;
 }
@@ -24,4 +31,13 @@ div#zentai {
 div#zentai > div {
 	margin-left: 5px;
 	background-color: #ffefaf;
+}
+
+p.info{
+	font-size: small;
+	background-color: #dfdfdf;
+}
+
+img{
+	float: right;
 }

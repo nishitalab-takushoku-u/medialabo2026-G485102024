@@ -1,0 +1,25 @@
+h1{
+    color: red;
+    text-shadow: purple 1px 0 10px;
+}
+
+h2.box1{
+    color: red;
+}
+
+h2.box2{
+    color: blue;
+}
+
+h2.box3{
+    color: green;
+}
+
+h2.box4{
+    color: rgb(70, 70, 5);
+}
+
+h3{
+    background: linear-gradient(.25turn, aqua, white);
+}
+
