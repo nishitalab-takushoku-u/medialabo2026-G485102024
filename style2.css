@@ -1,0 +1,11 @@
+h1{
+    color: blueviolet;
+}
+li strong{
+    color: blue;
+}
+
+div#kensaku > div {
+	margin-left: 5px;
+	background-color: #eb9549;
+}
