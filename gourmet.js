@@ -27,7 +27,22 @@ function print(data) {
 
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
-
+  let div = document.createElement('div');
+  let body = document.querySelector('body'); 
+  body.insertAdjacentElement('beforeend',div);
+  div.setAttribute('id','result');
+  let cont = 1;
+  for(let s of data.results.shop){
+  let h1 = document.createElement('h1');
+  div.insertAdjacentElement('beforeend',h1);
+  h1.textContent = "・検索結果" + cont + "件目";
+  let ul = document.createElement('ul');
+  div.insertAdjacentElement('beforeend',ul);
+  let h2 = document.createElement('h2');
+  div.insertAdjacentElement('beforeend',h2);
+  h2.textContent = s.name;
+  cont ++;
+}
 }
 
 // 課題6-1 のイベントハンドラ登録処理は以下に記述
