@@ -5,7 +5,7 @@ li strong{
     color: blue;
 }
 
-div#kensaku > div {
+.result {
 	margin-left: 5px;
 	background-color: #eb9549;
 }

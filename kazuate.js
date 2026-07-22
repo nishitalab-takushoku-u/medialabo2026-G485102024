@@ -15,7 +15,7 @@ function hantei() {
   let span = document.querySelector('span#kaisu');
   span.textContent = kaisu;
   // ここまで: 予想回数を1増やして，span#kaisu 要素のテキストを更新
-  if(kaisu<3){
+  if(kaisu<=3){
   // ここから: テキストボックスに指定された数値を yoso に代入する
   let yoso = document.querySelector('input[name="yoso"]');
   let n = Number(yoso.value);
